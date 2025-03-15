@@ -1,14 +1,17 @@
-# PHP Assignment: Form Handling
+# PHP Form Handling Assignment
 
 ## Objective:
-Create a simple PHP form handling logic from index.html that allows users to submit their details (name, email, and password). The form should validate the input and display a confirmation message once the form is successfully submitted. If the form contains errors, an error message should be displayed next to the respective fields.
+The goal of this assignment is to create a simple form in PHP that allows users to submit their details (name, email, and password). The form should validate the input, and based on the validation, it should either display error messages or show a confirmation message upon successful submission.
 
-### Instructions:
-**1. Validate the form input:**
-   - Name: Cannot be empty.
-   - Email: Must be a valid email address.
-   - Password: Must match.
-**2. Display errors:**
-   - If any of the fields are invalid, display an error message next to the respective field.
-**3. Show confirmation message:**
-   - If the form is successfully submitted and validated, show a confirmation message with the submitted details.
+## Instructions:
+
+### 1. **Validate the Form Input:**
+   - **Name**: The name field cannot be empty.
+   - **Email**: The email field must contain a valid email address.
+   - **Password**: The password field must match (i.e., confirm password should match the password entered).
+
+### 2. **Display Errors:**
+   - If any of the fields are invalid, an error message should be displayed next to the respective field, indicating what the issue is.
+
+### 3. **Show Confirmation Message:**
+   - If the form is successfully submitted and validated, display a confirmation message with the submitted details. 
